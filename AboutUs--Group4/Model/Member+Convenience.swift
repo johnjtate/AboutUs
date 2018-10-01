@@ -12,11 +12,11 @@ import CoreData
 extension Member {
     
     @discardableResult
-    convenience init(name: String, age: String, photo: Data, funFacts: [FunFact] = [], context: NSManagedObjectContext = CoreDataStack.context) {
+    convenience init(name: String, age: String, image: Data?, funFacts: [FunFact] = [], context: NSManagedObjectContext = CoreDataStack.context) {
         
         self.init(context: context)
         self.name = name
         self.age = age
-        self.photo = photo
+        self.image = image
     }
 }

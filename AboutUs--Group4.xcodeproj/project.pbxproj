@@ -15,6 +15,8 @@
 		8774E467216296F400ECB82A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774E466216296F400ECB82A /* CoreDataStack.swift */; };
 		8774E469216298D500ECB82A /* Member+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774E468216298D500ECB82A /* Member+Convenience.swift */; };
 		8774E46B216299B000ECB82A /* FunFact+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774E46A216299B000ECB82A /* FunFact+Convenience.swift */; };
+		8774E46D21629CF400ECB82A /* FunFactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774E46C21629CF400ECB82A /* FunFactController.swift */; };
+		8774E47021629D1400ECB82A /* MemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774E46F21629D1400ECB82A /* MemberController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8774E466216296F400ECB82A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		8774E468216298D500ECB82A /* Member+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Member+Convenience.swift"; sourceTree = "<group>"; };
 		8774E46A216299B000ECB82A /* FunFact+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FunFact+Convenience.swift"; sourceTree = "<group>"; };
+		8774E46C21629CF400ECB82A /* FunFactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactController.swift; sourceTree = "<group>"; };
+		8774E46F21629D1400ECB82A /* MemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		8774E4632162967B00ECB82A /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8774E46F21629D1400ECB82A /* MemberController.swift */,
+				8774E46C21629CF400ECB82A /* FunFactController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -185,10 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8774E4532162962F00ECB82A /* AboutUs__Group4.xcdatamodeld in Sources */,
+				8774E47021629D1400ECB82A /* MemberController.swift in Sources */,
 				8774E44B2162962F00ECB82A /* AppDelegate.swift in Sources */,
 				8774E46B216299B000ECB82A /* FunFact+Convenience.swift in Sources */,
 				8774E467216296F400ECB82A /* CoreDataStack.swift in Sources */,
 				8774E469216298D500ECB82A /* Member+Convenience.swift in Sources */,
+				8774E46D21629CF400ECB82A /* FunFactController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
