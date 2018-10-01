@@ -13,8 +13,8 @@ class MemberController {
     
     static let shared = MemberController()
     
-    func add(memberWithName name: String, age: String) {
-        Member(name: name, age: age, image: nil)
+    func add(memberWithName name: String, age: String, imageName: String) {
+        Member(name: name, age: age, imageName: imageName)
         saveToPersistentStore()
     }
     
